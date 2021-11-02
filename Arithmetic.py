@@ -32,7 +32,7 @@ result_m_s_root = math.sqrt(item_2)
 # 16. Вывести result_m_s_root в консоль.
 print(result_m_s_root)
 # 17. Создать переменную result_mp_s_root в которой вы найдёте квадратный корень любой из переменной item используя библиотеку math используя метод pow.
-result_mp_s_root = pow(item_2, 0.5)
+result_mp_s_root = math.pow(item_2, 0.5)
 # 18. Вывести result_mp_s_root в консоль.
 print(result_mp_s_root)
 # 19. Присвоить переменной item_1 odd значение
@@ -90,37 +90,39 @@ item_3 **= 0.5
 #  45. Вывести item_3 в консоль.
 print(item_3)
 #  46. Присвоить остаток от деления item_3
-item_3 %= (item_1 % item_2)
+item_3 %= item_3
 # item_3 %= 5
 #  47. Вывести item_3 в консоль.
 print(item_3)
 
-
+#Boolean
 # 48. Создать переменную b_item_t и присвоить True
-b_item_t = bool(True)
+b_item_t = True
 #  49. Создать переменную b_item_f и присвоить False
-b_item_f = bool(False)
+b_item_f = False
 #  50. Создать переменную b_item_relult_sum и присвоить сумму b_item_t и b_item_f
-b_item_relult_sum = bool(b_item_t + b_item_f)
+b_item_relult_sum = b_item_t + b_item_f
 #  51. Вывести b_item_relult_sum в консоль.
 print(b_item_relult_sum)
 #  52. Создать переменную b_item_relult_subtr и присвоить разницу b_item_t и b_item_f
-b_item_relult_subtr = bool(b_item_t - b_item_f)
+b_item_relult_subtr = b_item_t - b_item_f
 #  53. Вывести b_item_relult_subtr в консоль.
 print(b_item_relult_subtr)
 #  54. Создать переменную b_item_relult_multi и присвоить умножение b_item_t и b_item_f
-b_item_relult_multi = bool(b_item_t * b_item_f)
+b_item_relult_multi = b_item_t * b_item_f
 #  55. Вывести b_item_relult_multi в консоль.
 print(b_item_relult_multi)
 #  56. Создать переменную b_item_relult_division и присвоить деление b_item_t и b_item_f
-b_item_relult_division = bool(b_item_t / b_item_f)
+b_item_relult_division = b_item_t / b_item_f
 #  57. Вывести b_item_relult_division в консоль. (Получить ошибку)
-print('на ноль делить нельзя')
+try: b_item_relult_division = b_item_t / b_item_f
+except: b_item_relult_division = False
+print('на ноль дельть нельзя')
 #  58. Создать переменную b_item_1_int и присвоить явное приведение b_item_t к int
 b_item_1_int = int(b_item_t)
 #  59. Вывести b_item_1_int в консоль.
 print(b_item_1_int)
-#  60. Создать переменную b_item_2_int и присвоить явное приведение b_item_2 к int
-b_item_2_int = int(b_item_2)
+#  60. Создать переменную b_item_2_int и присвоить явное приведение b_item_f к int
+b_item_2_int = int(b_item_f)
 #  61. Вывести b_item_2_int в консоль.
 print(b_item_2_int)
