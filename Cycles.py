@@ -58,7 +58,6 @@ while run:
         break
     count += 1
 
-
 # Цилы For
 # 10. Сделать цикл for c переменной item который будет работать пока счётчик range досчитает от for_count  до range_count
 # Тело цикла:
@@ -66,7 +65,6 @@ while run:
 
 for item in range(for_count, range_count):
     print('Step =', item)
-
 
 #    11. Сделать цикл for c переменной item который будет работать пока счётчик range досчитает от 0 до 30
 # Тело цикла:
@@ -79,13 +77,12 @@ for item in range(for_count, range_count):
 for item in range(0, 30):
     if item == 5:
         print('Item =', item)
-        if item == 10:
-            print('Item =', item)
-            if item < 4:
-                print('Item <', item)
-                if item >=27:
-                    print('Item >=', item)
-
+    if item == 10:
+        print('Item =', item)
+    if item < 4:
+        print('Item <', item)
+    if item >= 27:
+        print('Item >=', item)
 
 #    12. Сделать цикл for c переменной item который будет работать пока счётчик range досчитает от 0 до range_count +1
 # Тело цикла:
@@ -110,9 +107,7 @@ for item in range(0, range_count + 1):
             if inner_item == 5:
                 inner_count = inner_item
 
-
 print('-- inner_count =', inner_count)
-
 
 #    13. Сделать цикл for c переменной item который будет работать пока счётчик range досчитает от 0 до 20
 # Тело цикла:
