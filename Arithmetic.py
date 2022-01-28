@@ -100,6 +100,7 @@ print(item_3)
 b_item_t = True
 #  49. Создать переменную b_item_f и присвоить False
 b_item_f = False
+print('b_item_f =', b_item_f)
 #  50. Создать переменную b_item_relult_sum и присвоить сумму b_item_t и b_item_f
 b_item_relult_sum = b_item_t + b_item_f
 #  51. Вывести b_item_relult_sum в консоль.
@@ -111,13 +112,14 @@ print(b_item_relult_subtr)
 #  54. Создать переменную b_item_relult_multi и присвоить умножение b_item_t и b_item_f
 b_item_relult_multi = b_item_t * b_item_f
 #  55. Вывести b_item_relult_multi в консоль.
-print(b_item_relult_multi)
+print('b_item_relult_multi =', b_item_relult_multi)
 #  56. Создать переменную b_item_relult_division и присвоить деление b_item_t и b_item_f
-b_item_relult_division = b_item_t / b_item_f
 #  57. Вывести b_item_relult_division в консоль. (Получить ошибку)
-try: b_item_relult_division = b_item_t / b_item_f
-except: b_item_relult_division = False
-print('на ноль дельть нельзя')
+
+try:
+    b_item_relult_division = b_item_t / b_item_f
+except:
+    print('на ноль дельть нельзя')
 #  58. Создать переменную b_item_1_int и присвоить явное приведение b_item_t к int
 b_item_1_int = int(b_item_t)
 #  59. Вывести b_item_1_int в консоль.
