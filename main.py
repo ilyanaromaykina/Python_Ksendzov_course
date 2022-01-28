@@ -1,5 +1,6 @@
 # 1
 string_type = 'words'
+
 # 2
 integer_type = 12
 # 3
